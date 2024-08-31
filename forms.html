@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms.css">
+    <title>form</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">Home Page</a>
+            <span> | </b>Already an AltSchooler?</b></span>
+            <a href="#">Sign In!</a>
+            <h3>Signup</h3>
+        </nav>
+    </header>
+
+    <section>
+        <p>Take the next steps to apply at AltSchool Africa</p>
+        <form action="">
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstName" placeholder="Enter first name" >
+
+        <label for="lastname">Last Name</label>
+        <input type="lastname" name="lastname" id="lastname" placeholder="Enter last name"><br>
+<br>
+        <label for="gender">Gender </label>
+     <select id="gender" name="gender">
+        <option value="" disabled selected>Select gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+     
+     <!-- <input type="gender" name="gender" id="lastname" placeholder="Select gender"> -->
+
+     <label for="DOB">Date of birth </label>
+     <input type="date" name="date_of_birth" id="date_of_birth"><br><br>
+
+     <label for="email">Email Address </label>
+     <input type="email" name="email" id="email" placeholder="Enter email address">
+
+     <label for="phone">Phone Number </label>
+     <input type="number" name="number" id="phone_number" placeholder="080-2324-2452"><br><br>
+
+     <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="" disabled selected>Select your country</option>
+            <option value="ng">Nigeria</option>
+            <option value="us">Ghana</option>
+            <option value="ca">Canada</option>
+            <option value="gb">United Kingdom</option>
+            <option value="au">Australia</option>
+            <option value="de">Germany</option>
+        </select>
+
+
+     <label for="city">State/City Of Residence</label>
+     <input type="text" placeholder="Enter your state of residence"><br><br>
+
+     <label for="channel">How did you hear about us?</label>
+     <select id="channel" name="channel">
+        <option value="" disabled selected>Select channel</option>
+        <option value="x">Twitter</option>
+        <option value="fb">Facebook</option>
+        <option value="LinkedIn">LinkedIn</option>
+        <option value="YT">Youtube</option>
+        <option value="friend">Friend</option>
+        <option value="WA">WhatsApp</option>
+        <option value="ig">Instagram</option>
+        <option value="billboard">Bill Board</option>
+        <option value="sales">Sales Officer</option>
+        <option value="other">Other</option>
+    </select>
+
+
+     <!-- <input type="channel" name="channel" id="" placeholder="Select channel"><br><br> -->
+
+     <label for="password">Password</label>
+     <input type="password" name="password" id="" placeholder="Enter password">
+
+     <label for="password-confirm">Confirm Password</label>
+     <input type="password" name="password-confirm" id="password-confirm" placeholder="Enter password again"><br><br>
+
+     <p>By clicking continue, I agree to <a href="#">Terms of Use</a>and acknowledge that I
+        have read the <a href="#">Privacy Policy</a></p><br><br>
+
+        <button type="submit">Submit --></button>
+        </form>
+    </section>
+    <hr>
+    <!-- footer -->
+    <footer>
+        <p>
+            <h5><a href="#">Tel:0800ALTSCHOOL</a></h5><br>
+            &copy;2024 AltSchool Africa. All rights reserved.
+        </p>
+    </footer> 
+</body>
+</html>
